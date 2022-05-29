@@ -1,7 +1,11 @@
-export default function Display() {
+export default function Display(props) {
+  const { display } = props;
   return (
-    <div className="row bg-dark text-light p-4 rounded border border-light">
-      <span className="cifra">0</span>
+    <div
+      id="display"
+      className="row bg-dark text-light p-4 rounded border border-light"
+    >
+      <span className="cifra">{display}</span>
     </div>
   );
 }
