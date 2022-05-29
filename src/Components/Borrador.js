@@ -10,7 +10,7 @@ export default function Borrador(props) {
       <button
         onClick={clear}
         id="clear"
-        className="numero btn btn-warning p-4 border border-dark"
+        className="numero btn btn-danger p-4 border border-dark"
       >
         AC
       </button>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Operador from "./Operador";
 export default function Operadores(props) {
   const {

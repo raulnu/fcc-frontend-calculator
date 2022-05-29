@@ -9,7 +9,7 @@ export default function Calculator() {
   const [firstChain, setFirstChain] = useState("");
   const [operation, setOperation] = useState("");
   return (
-    <div className="calculator col-6 border border-warning bg-dark">
+    <div className="calculator col-sm-6 col-lg-4 border border-warning bg-dark">
       <Display display={display} />
       <div className="botonera row">
         <div className="principal col-9">
