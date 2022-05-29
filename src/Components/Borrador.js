@@ -1,7 +1,17 @@
-export default function Borrador() {
+export default function Borrador(props) {
+  const { setDisplay, setOperation } = props;
+
+  const clear = () => {
+    setDisplay("0");
+    setOperation("");
+  };
   return (
     <div className="row">
-      <button className="numero btn btn-warning p-4 border border-dark">
+      <button
+        onClick={clear}
+        id="clear"
+        className="numero btn btn-warning p-4 border border-dark"
+      >
         AC
       </button>
     </div>
